@@ -14,21 +14,21 @@ new version of `node` (eg. a LTS-release - this was developed using 8.x), and in
 - To execute the tests (once), simply run the command: `npm test`
 - To execute the tests (in watch mode), simply run the command: `npm run test:watch`
 
-#QA:
-#Problem 1: 
-#Pick up any public website (google forms or any other site) which requires:
+# QA:
+# Problem 1: 
+# Pick up any public website (google forms or any other site) which requires:
 - Login
 - Have data entry page
-#Test case to develop:
-#Create the automated UI testing using cypress https://www.cypress.io/
+# Test case to develop:
+# Create the automated UI testing using cypress https://www.cypress.io/
 •	You should be able to login into the website
 •	And verify that data is saved.
 
-#Problem 2: 
-S#et up the seed angular project using the below link:
+# Problem 2: 
+# Set up the seed angular project using the below link:
 https://angular.io/guide/quickstart
-#Test case to develop
-#Create “Snapshot test case” for page/component from above quickstart tutorial. 
+# Test case to develop
+# Create “Snapshot test case” for page/component from above quickstart tutorial. 
 You can refer the below tutorial :
 https://jestjs.io/docs/en/snapshot-testing
 
