@@ -1,0 +1,10 @@
+<img src="/assets/logo.png">
+<tl-item-list [items]="items$ | async"
+              (add)="addItem($event)"
+              (update)="updateItem($event)"
+              (delete)="deleteItem($event)">
+
+</tl-item-list>
+<tl-pie-chart [items]="items$ | async">
+
+</tl-pie-chart>
